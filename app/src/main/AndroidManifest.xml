@@ -14,7 +14,10 @@
         android:theme="@style/Theme.RecyclerViewDemo"
         tools:targetApi="31">
         <activity
-            android:name=".CardRecyclerView"
+            android:name=".single_selection_rv.SingleSelectionRV"
+            android:exported="false" />
+        <activity
+            android:name=".card_recycler_view.CardRecyclerView"
             android:exported="false" />
         <activity
             android:name=".normal_recycler_view.NormalRecyclerView"

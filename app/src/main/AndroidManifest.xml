@@ -14,6 +14,9 @@
         android:theme="@style/Theme.RecyclerViewDemo"
         tools:targetApi="31">
         <activity
+            android:name=".CardRecyclerView"
+            android:exported="false" />
+        <activity
             android:name=".normal_recycler_view.NormalRecyclerView"
             android:exported="false" />
         <activity
